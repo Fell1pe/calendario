@@ -1,5 +1,3 @@
- **# README**
-
 **Projeto: Calendário Colorido Interativo**
 
 **Descrição:**
