@@ -3,50 +3,58 @@
     padding: 0;
     box-sizing: border-box;
   }
+  
+  body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif; 
+    text-align: center;
+  }
  
   .calendar {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    border-collapse: collapse;
-    border: 1px solid #ddd;
-    font-family: sans-serif;
-  }
-  
-  .calendar th,
-  .calendar td {
-    text-align: center;
-    padding: 10px;
-    border: 1px solid #ddd;
-  }
- 
-  .calendar thead {
-    background-color: #eee;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin: 20px auto;
   }
   
   .calendar thead th {
+    text-align: center;
+    padding: 5px;
     font-weight: bold;
-    text-transform: uppercase;
+    color: #333333;
+    background-color: #f0f0f0; 
   }
-
-  .calendar .legend p {
+ 
+  .calendar tbody td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .calendar tbody td.selected {
+    border: 2px dashed #ff0080;
+  }
+  
+  hr {
+    border: 1px dotted #cccccc; 
+    margin: 20px auto; 
+  }
+ 
+  label {
+    font-weight: 600;
+    color: #333333; 
+    display: block; 
     margin-bottom: 5px;
   }
-  
-  .calendar .legend span {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-right: 5px;
-    border: 1px solid #ddd;
+  select {
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: none; 
+    font-family: inherit;
+  }
+
+  select option:hover {
+    background-color: #eeeeee;
   }
   
-  .legend-weekend span {
-    background-color: #f00;
-  }
-  
-  @media (max-width: 768px) {
-    .calendar {
-      font-size: 14px;
-    }
-  }
