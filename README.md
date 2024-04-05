@@ -2,19 +2,27 @@
 
 Este projeto cria um aplicativo de calendário simples onde você pode escolher uma cor e atribuí-la a um dia específico para seus veículos.
 
-**Recursos:**
+<img src="calendario.gif">
+
+**índice**
+* [Recursos](#recursos)
+* [Tecnologias_usadas](#tecnologias-usadas)
+* [Instruções](#instruções)
+* [Autores](#autores)
+## Recursos:
 
 * Exibe um calendário com dias da semana e datas.
 * Permite a seleção de uma cor e um dia.
 * Altera a cor de fundo do dia escolhido no calendário com base na cor selecionada.
 
-**Tecnologias Usadas:**
+## Tecnologias Usadas:
 
-* HTML: Define a estrutura e o conteúdo da página web.
-* CSS: Define a aparência visual do calendário, legenda de cores e outros elementos.
-* JavaScript: Implementa a funcionalidade para alterar a cor de fundo de um dia com base na seleção do usuário.
-
-**Descrição do Código:**
+* [<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code>](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+* [<code><img height="32" src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS3"/></code>](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+* [<code><img height="32" src="https://static.vecteezy.com/system/resources/previews/027/127/560/original/javascript-logo-javascript-icon-transparent-free-png.png" alt="GitHub"/></code>](https://github.com/)
+* [<code><img height="32" src="https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/01/asset_upload_file97293_255583.jpg" alt="Git"/></code>](https://git-scm.com/)
+* [<code><img height="32" src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VisualStudio"/></code>](https://code.visualstudio.com/)
+* [<code><img height="32" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></code>](https://github.com/)
 
 **HTML (index.html):**
 
@@ -35,21 +43,15 @@ Este arquivo contém a função `colorirDia()`. Quando o botão de envio é clic
 5. Ele calcula o índice da célula do dia alvo adicionando 2 ao valor do dia selecionado (considerando o deslocamento dos cabeçalhos dos dias da semana).
 6. Ele acessa o elemento `td` específico usando o índice calculado e define sua propriedade de estilo `backgroundColor` para a cor escolhida.
 
-**Instruções:**
+## Instruções:
 
-1. Salve o arquivo HTML como `index.html`.
-2. Salve o arquivo CSS como `style.css`.
-3. Salve o arquivo JavaScript como `calendario.js`.
 4. Abra `index.html` em um navegador web para visualizar o aplicativo de calendário.
 5. Selecione uma cor e insira um número de dia (entre 1 e 31).
 6. Clique no botão de envio para ver a cor do dia escolhido no calendário mudar.
 
-**Notas Adicionais:**
+**Linkedin**
 
-* Você pode personalizar ainda mais o CSS para aprimorar o estilo visual do calendário e da legenda de cores.
-* A funcionalidade do JavaScript pode ser estendida para implementar recursos como:
-    * Armazenamento de atribuições de cores para uso futuro (usando armazenamento local ou banco de dados).
-    * Exibir cores diferentes para veículos diferentes.
-    * Destacar eventos futuros em datas específicas.
+[publicação do projeto no linkedin](https://www.linkedin.com/posts/fellipe-zanin-1b1a7728b_fell1pe-overview-activity-7181962291691536384-NRZG?utm_source=share&utm_medium=member_desktop)
 
-Este README fornece um ponto de partida para a compreensão da funcionalidade do projeto e do potencial para desenvolvimento futuro.
+## Autores
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/140712280?v=4" width=115><br><sub>Fellipe Gabriel Zanin</sub>](https://github.com/Fell1pe) |
